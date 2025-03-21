@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FAINTECH | Desarrollo</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
   <div id="particles-js"></div>
@@ -16,53 +18,68 @@
       <ul>
         <li><a href="index.html">Inicio</a></li>
         <li><a href="tecnologia.html">Tecnología</a></li>
-        <li><a href="desarrollo.html">Desarrollo</a></li>
+        <li><a href="desarrollo.html" class="active">Desarrollo</a></li>
         <li><a href="inversores.html">Inversores</a></li>
         <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="responsable.html">Tecnología Responsable</a></li>
       </ul>
     </nav>
   </header>
-  <main class="section left">
+
+  <main class="section left reveal">
     <div class="text">
-      <h2>Fase actual</h2>
-      <p>Nos encontramos en fase de validación del prototipo funcional. Contamos con un sistema central de inteligencia artificial para análisis de riesgos, conectado con paneles financieros y una red inicial de usuarios en entorno controlado.</p>
+      <h2>Fase Actual</h2>
+      <p>Actualmente nos encontramos en fase de validación del prototipo funcional (MVP). Contamos con un sistema central de IA entrenado con datos reales, dashboards activos y una primera red de usuarios en entorno controlado. Ya hemos automatizado tareas que antes tomaban días.</p>
     </div>
     <div class="image">
       <img src="https://www.svgrepo.com/show/375555/data-analysis-chart-graph.svg" alt="Desarrollo" />
     </div>
   </main>
-  <main class="section right">
+
+  <main class="section right reveal">
     <div class="image">
       <img src="https://www.svgrepo.com/show/493881/settings-cog.svg" alt="Logros" />
     </div>
     <div class="text">
-      <h2>Logros alcanzados</h2>
+      <h2>Logros Alcanzados</h2>
       <ul>
-        <li>MVP funcional en entorno cloud</li>
-        <li>Primeros casos de uso en validación con usuarios</li>
-        <li>Modelo de IA entrenado con datos reales</li>
-        <li>Integración blockchain para trazabilidad de operaciones</li>
+        <li>- MVP funcional en la nube</li>
+        <li>- Casos de uso reales con validación</li>
+        <li>- Algoritmos predictivos activos</li>
+        <li>- APIs conectadas con plataformas externas</li>
       </ul>
     </div>
   </main>
-  <main class="section left">
+
+  <main class="section left reveal">
     <div class="text">
-      <h2>Hoja de ruta (Roadmap)</h2>
+      <h2>Roadmap Estratégico</h2>
       <ol>
-        <li><strong>Q1 2025:</strong> Finalización del MVP y pruebas piloto</li>
-        <li><strong>Q2 2025:</strong> Mejoras de experiencia y escalado técnico</li>
-        <li><strong>Q3 2025:</strong> Expansión comercial y captación de clientes</li>
-        <li><strong>Q4 2025:</strong> Ronda de inversión formal y crecimiento global</li>
+        <li><strong>Q1 2025:</strong> Finalización de pruebas piloto y mejora UX/UI</li>
+        <li><strong>Q2 2025:</strong> Integraciones comerciales e infraestructura optimizada</li>
+        <li><strong>Q3 2025:</strong> Salida al mercado con campañas activas</li>
+        <li><strong>Q4 2025:</strong> Ronda de inversión formal y expansión internacional</li>
       </ol>
     </div>
     <div class="image">
       <img src="https://www.svgrepo.com/show/354112/roadmap-map.svg" alt="Roadmap" />
     </div>
   </main>
+
   <footer>
     <p>© 2025 FAINTECH. Todos los derechos reservados.</p>
   </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
   <script src="particles-config.js"></script>
+  <script>
+    ScrollReveal().reveal('.reveal', {
+      distance: '50px',
+      duration: 1000,
+      easing: 'ease-in-out',
+      origin: 'bottom',
+      interval: 200
+    });
+  </script>
 </body>
 </html>

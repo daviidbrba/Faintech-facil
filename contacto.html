@@ -6,33 +6,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FAINTECH | Contacto</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
   <div id="particles-js"></div>
   <header>
     <h1>FAINTECH</h1>
-    <p>Contáctanos</p>
+    <p>Contáctanos para colaborar, invertir o saber más</p>
     <nav>
       <ul>
         <li><a href="index.html">Inicio</a></li>
         <li><a href="tecnologia.html">Tecnología</a></li>
         <li><a href="desarrollo.html">Desarrollo</a></li>
         <li><a href="inversores.html">Inversores</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="contacto.html" class="active">Contacto</a></li>
+        <li><a href="responsable.html">Tecnología Responsable</a></li>
       </ul>
     </nav>
   </header>
-  <main class="section center">
+
+  <main class="section center reveal">
     <div class="text">
-      <h2>Próximamente</h2>
-      <p>En breve podrás contactarnos directamente desde esta sección. Si estás interesado en colaborar o invertir, pronto publicaremos los datos necesarios para establecer contacto directo con nuestro equipo.</p>
-      <p>Mientras tanto, puedes escribirnos a: <strong>contacto@faintech.com</strong></p>
+      <h2>¿Tienes una propuesta o quieres invertir?</h2>
+      <p>Estaremos encantados de atenderte. Puedes escribirnos por email o conectar con nosotros a través de nuestras redes profesionales.</p>
+      <p><strong>Email:</strong> contacto@faintech.com</p>
+      <p><strong>LinkedIn:</strong> linkedin.com/company/faintech</p>
+      <p><strong>Web:</strong> www.faintech.com</p>
     </div>
   </main>
+
   <footer>
     <p>© 2025 FAINTECH. Todos los derechos reservados.</p>
   </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
   <script src="particles-config.js"></script>
+  <script>
+    ScrollReveal().reveal('.reveal', {
+      distance: '50px',
+      duration: 1000,
+      easing: 'ease-in-out',
+      origin: 'bottom',
+      interval: 200
+    });
+  </script>
 </body>
 </html>

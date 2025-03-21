@@ -4,46 +4,77 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FAINTECH | Bienvenida</title>
+  <title>FAINTECH | Inicio</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
   <div id="particles-js"></div>
   <header>
     <h1>FAINTECH</h1>
-    <p>Financial Artificial Intelligence Networking Technologies</p>
+    <p>Automatización Financiera Inteligente</p>
     <nav>
       <ul>
-        <li><a href="index.html">Inicio</a></li>
+        <li><a href="index.html" class="active">Inicio</a></li>
         <li><a href="tecnologia.html">Tecnología</a></li>
         <li><a href="desarrollo.html">Desarrollo</a></li>
         <li><a href="inversores.html">Inversores</a></li>
         <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="responsable.html">Tecnología Responsable</a></li>
       </ul>
     </nav>
   </header>
-  <main class="section left">
+
+  <main class="section left reveal">
     <div class="text">
       <h2>¿Quiénes somos?</h2>
-      <p>FAINTECH es una empresa tecnológica que revoluciona las finanzas mediante inteligencia artificial, automatización y redes globales. Creamos soluciones que reducen costes, optimizan procesos y conectan oportunidades.</p>
+      <p>FAINTECH es una startup tecnológica dedicada a la automatización inteligente del ecosistema financiero. Nuestra misión es optimizar procesos, conectar oportunidades y facilitar decisiones financieras mediante inteligencia artificial, redes y tecnología en la nube.</p>
     </div>
     <div class="image">
-      <img src="https://www.svgrepo.com/show/331370/artificial-intelligence.svg" alt="AI" />
+      <img src="https://www.svgrepo.com/show/375557/startup-rocket-launch.svg" alt="Startup" />
     </div>
   </main>
-  <main class="section right">
+
+  <main class="section right reveal">
     <div class="image">
-      <img src="https://www.svgrepo.com/show/354020/cloud-api.svg" alt="API Cloud" />
+      <img src="https://www.svgrepo.com/show/511267/data-flow.svg" alt="Flujo de datos" />
     </div>
     <div class="text">
-      <h2>¿Qué ofrecemos?</h2>
-      <p>Desde plataformas de análisis predictivo hasta redes de inversión conectadas, FAINTECH aplica tecnología avanzada para potenciar decisiones estratégicas y automatizadas en tiempo real.</p>
+      <h2>¿Qué hacemos?</h2>
+      <p>Desarrollamos una plataforma modular y escalable para conectar inversores, automatizar análisis de riesgo, gestionar procesos financieros y extraer métricas en tiempo real. Integramos APIs, IA y dashboards interactivos para transformar la toma de decisiones en segundos.</p>
     </div>
   </main>
+
+  <main class="section left reveal">
+    <div class="text">
+      <h2>Ejemplos de aplicación</h2>
+      <ul>
+        <li>- PYMEs que automatizan su contabilidad y previsión financiera</li>
+        <li>- Fondos de inversión que identifican oportunidades en tiempo real</li>
+        <li>- Plataformas que conectan capital con proyectos automáticamente</li>
+        <li>- Integración con bancos y ERP mediante API en menos de 10 días</li>
+      </ul>
+    </div>
+    <div class="image">
+      <img src="https://www.svgrepo.com/show/479768/financial-report.svg" alt="Aplicaciones" />
+    </div>
+  </main>
+
   <footer>
     <p>© 2025 FAINTECH. Todos los derechos reservados.</p>
   </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
   <script src="particles-config.js"></script>
+  <script>
+    ScrollReveal().reveal('.reveal', {
+      distance: '50px',
+      duration: 1000,
+      easing: 'ease-in-out',
+      origin: 'bottom',
+      interval: 200
+    });
+  </script>
 </body>
 </html>

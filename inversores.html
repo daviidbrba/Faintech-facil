@@ -4,39 +4,72 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FAINTECH | Presentación para Inversores</title>
+  <title>FAINTECH | Inversores</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
   <div id="particles-js"></div>
   <header>
     <h1>FAINTECH</h1>
-    <p>Oportunidad de inversión y visión estratégica</p>
+    <p>Presentación para Inversores</p>
     <nav>
       <ul>
         <li><a href="index.html">Inicio</a></li>
         <li><a href="tecnologia.html">Tecnología</a></li>
         <li><a href="desarrollo.html">Desarrollo</a></li>
-        <li><a href="inversores.html">Inversores</a></li>
+        <li><a href="inversores.html" class="active">Inversores</a></li>
         <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="responsable.html">Tecnología Responsable</a></li>
       </ul>
     </nav>
   </header>
-  <main class="section center">
+
+  <main class="section left reveal">
     <div class="text">
-      <h2>¿Por qué FAINTECH?</h2>
-      <p>Somos una startup fintech tecnológica con una visión clara: transformar el acceso y la eficiencia financiera mediante inteligencia artificial, automatización y redes de capital. Con un producto validado y un mercado en crecimiento, buscamos aliados estratégicos que compartan nuestra visión.</p>
-      <p>Puedes descargar nuestro pitch deck en tu idioma para conocer todos los detalles del proyecto.</p>
+      <h2>¿Por qué invertir en FAINTECH?</h2>
+      <p>FAINTECH está construyendo la infraestructura del futuro financiero. Automatizamos análisis de riesgo, conectamos inversores con proyectos y reducimos los tiempos de operación con inteligencia artificial.</p>
+      <ul>
+        <li>- Equipo con experiencia real en IA, fintech y desarrollo</li>
+        <li>- Prototipo funcional validado</li>
+        <li>- Roadmap ambicioso y escalable</li>
+        <li>- Mercado global con alto potencial de disrupción</li>
+      </ul>
+    </div>
+    <div class="image">
+      <img src="https://www.svgrepo.com/show/375585/money-growth-investment.svg" alt="Inversores" />
+    </div>
+  </main>
+
+  <main class="section right reveal">
+    <div class="image">
+      <img src="https://www.svgrepo.com/show/375568/documents.svg" alt="Pitch Deck" />
+    </div>
+    <div class="text">
+      <h2>Documentación para Inversores</h2>
+      <p>Descarga nuestro pitch deck actualizado con información clave sobre tecnología, mercado, equipo, sostenibilidad y estrategia.</p>
       <div class="pdf-buttons">
-        <a href="faintech-pitchdeck.pdf" class="button" download>📄 Pitch Deck Español</a>
-        <a href="faintech-pitchdeck-en.pdf" class="button" download>📄 Pitch Deck English</a>
+        <a href="faintech-pitchdeck-pro.pdf" class="button" download>📄 Pitch Deck ES</a>
+        <a href="faintech-pitchdeck-en.pdf" class="button" download>📄 Pitch Deck EN</a>
       </div>
     </div>
   </main>
+
   <footer>
     <p>© 2025 FAINTECH. Todos los derechos reservados.</p>
   </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
   <script src="particles-config.js"></script>
+  <script>
+    ScrollReveal().reveal('.reveal', {
+      distance: '50px',
+      duration: 1000,
+      easing: 'ease-in-out',
+      origin: 'bottom',
+      interval: 200
+    });
+  </script>
 </body>
 </html>
